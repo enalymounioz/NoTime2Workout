@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.elenivoreos.notimetoworkout.app-merged_res-29:/raw_press_start.mp3.flat",
+        "source": "com.elenivoreos.notimetoworkout.app-main-31:/raw/press_start.mp3"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable-v24_ic_wall_sit.png.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable-v24\\ic_wall_sit.png"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable-v24_ic_abdominal_crunch.png.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable-v24\\ic_abdominal_crunch.png"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable_item_circular_color_accent_background.xml.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable\\item_circular_color_accent_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable-v24_ic_side_plank.png.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable-v24\\ic_side_plank.png"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable-v24_ic_step_up_onto_chair.png.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable-v24\\ic_step_up_onto_chair.png"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable_item_circular_color_accent_border.xml.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable\\item_circular_color_accent_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\layout_activity_exercise.xml.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\layout\\activity_exercise.xml"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable-v24_ic_squat.png.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable-v24\\ic_squat.png"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable_circular_progress_bar.xml.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable\\circular_progress_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable-v24_ic_lunge.png.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable-v24\\ic_lunge.png"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-pngs-24:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable-v24_ic_push_up_and_rotation.png.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable-v24\\ic_push_up_and_rotation.png"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable-v24_workoutmainimage.png.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable-v24\\workoutmainimage.png"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable-v24_ic_jumping_jacks.png.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable-v24\\ic_jumping_jacks.png"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable-v24_ic_triceps_dip_on_chair.png.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable-v24\\ic_triceps_dip_on_chair.png"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable-v24_ic_plank.png.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable-v24\\ic_plank.png"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable-v24_ic_high_knees_running_in_place.png.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable-v24\\ic_high_knees_running_in_place.png"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable-v24_ic_push_up.png.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable-v24\\ic_push_up.png"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable-v24_circular_progress_bar_gray.xml.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable-v24\\circular_progress_bar_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable_item_color_accent_border_ripple_background.xml.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable\\item_color_accent_border_ripple_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\mipmap-hdpi\\ic_launcher_round.webp"
+    }
+]

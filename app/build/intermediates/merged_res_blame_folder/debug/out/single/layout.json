@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-mergeDebugResources-28:\\layout\\activity_exercise.xml",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\layout\\activity_exercise.xml"
+    },
+    {
+        "merged": "com.elenivoreos.notimetoworkout.app-mergeDebugResources-28:/layout/activity_exercise.xml",
+        "source": "com.elenivoreos.notimetoworkout.app-main-31:/layout/activity_exercise.xml"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-mergeDebugResources-28:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\layout\\activity_main.xml"
+    }
+]
