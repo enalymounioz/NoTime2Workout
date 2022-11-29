@@ -40,6 +40,8 @@ drawable logo
 drawable workoutmainimage
 font poppins
 id btnFinish
+id btnNo
+id btnYes
 id frameLayout_Start
 id frameLayout_progress_bar
 id frameLayout_progress_bar_exercise
@@ -62,13 +64,16 @@ id tvItem
 layout activity_exercise
 layout activity_finish
 layout activity_main
+layout dialog_custom_back_confirmation
 layout item_exercise_status
 mipmap ic_launcher
 mipmap ic_launcher_round
 raw press_start
 string app_name
+string are_you_sure
 string get_ready_for
 string image
+string this_will_stop_your_workout_you_ve_come_this_fare_are_you_sure_you_want_to_quit
 style Theme.NoTimeToWorkout
 style ToolbarTheme
 xml backup_rules

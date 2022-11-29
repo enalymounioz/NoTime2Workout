@@ -15,8 +15,10 @@
     <dimen name="default_button_text_size">22sp</dimen>
     <dimen name="main_screen_main_layout_padding">5dp</dimen>
     <string name="app_name">NoTimeToWorkout</string>
+    <string name="are_you_sure">Are you sure?</string>
     <string name="get_ready_for">GET READY FOR</string>
     <string name="image">Start Image</string>
+    <string name="this_will_stop_your_workout_you_ve_come_this_fare_are_you_sure_you_want_to_quit">This will stop your workout. You\'ve come this fare, are you sure you want to quit?</string>
     <style name="Theme.NoTimeToWorkout" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
