@@ -37,11 +37,13 @@ drawable item_circular_color_gray_background
 drawable item_circular_thin_color_accent_border
 drawable item_color_accent_border_ripple_background
 drawable logo
+drawable workout_main_image
 drawable workoutmainimage
 font poppins
 id btnFinish
 id btnNo
 id btnYes
+id frameLayoutBMI
 id frameLayout_Start
 id frameLayout_progress_bar
 id frameLayout_progress_bar_exercise
@@ -59,8 +61,11 @@ id textViewTimer
 id textViewTimerExercise
 id textViewTitle
 id toolbarExercise
+id toolbar_bmi_activity
 id toolbar_finish_activity
+id tvCalculator
 id tvItem
+layout activity_bmi
 layout activity_exercise
 layout activity_finish
 layout activity_main
@@ -71,8 +76,10 @@ mipmap ic_launcher_round
 raw press_start
 string app_name
 string are_you_sure
+string calculate_bmi
 string get_ready_for
 string image
+string no_time_nto_workout
 string this_will_stop_your_workout_you_ve_come_this_fare_are_you_sure_you_want_to_quit
 style Theme.NoTimeToWorkout
 style ToolbarTheme

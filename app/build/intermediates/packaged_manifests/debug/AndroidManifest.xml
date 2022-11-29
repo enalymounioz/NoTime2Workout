@@ -28,6 +28,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.NoTimeToWorkout" >
         <activity
+            android:name="com.elenivoreos.notimetoworkout.BMIActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.elenivoreos.notimetoworkout.FinishActivity"
             android:exported="true"
             android:screenOrientation="portrait" />

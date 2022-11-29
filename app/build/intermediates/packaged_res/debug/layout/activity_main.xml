@@ -7,33 +7,82 @@
     android:padding="@dimen/main_screen_main_layout_padding"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="191dp"
+        android:layout_height="110dp"
+        android:layout_marginEnd="44dp"
+        android:gravity="end"
+        android:text="@string/no_time_nto_workout"
+        android:textColor="@color/purple_700"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/myImageview"
+        app:layout_constraintEnd_toEndOf="@+id/myImageview" />
+
     <ImageView
         android:id="@+id/myImageview"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_width="424dp"
+        android:layout_height="282dp"
+        android:layout_marginTop="4dp"
         android:contentDescription="@string/image"
-        android:src="@drawable/workoutmainimage"
-        app:layout_constraintBottom_toTopOf="@+id/frameLayout_Start"
+        android:src="@drawable/workout_main_image"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <FrameLayout
-        android:id="@+id/frameLayout_Start"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+    android:id="@+id/frameLayout_Start"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_marginTop="25dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/myImageview"
+    android:background="@drawable/item_color_accent_border_ripple_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/default_button_text_size"
+        android:textStyle="bold"/>
+
+</FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayoutBMI"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/item_circular_color_accent_background"
+        app:layout_constraintBottom_toTopOf="@id/tvCalculator"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/myImageview"
-        android:background="@drawable/item_color_accent_border_ripple_background">
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout_Start"
+        app:layout_constraintVertical_bias="0.92">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="START"
             android:layout_gravity="center"
-            android:textColor="@color/colorPrimary"
+            android:text="BMI"
+            android:textColor="@color/white"
             android:textSize="@dimen/default_button_text_size"
-            android:textStyle="bold"/>
-
+            android:textStyle="bold" />
     </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvCalculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/default_button_text_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout_Start"
+        app:layout_constraintVertical_bias="0.75" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

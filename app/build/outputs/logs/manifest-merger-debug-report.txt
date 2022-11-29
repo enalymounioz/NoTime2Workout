@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:1-52:12
+ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:1-58:12
 MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\evoreopoulou\.gradle\caches\transforms-3\c16f5e529333fb99c2aff8bb96a0d235\transformed\viewbinding-7.3.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\evoreopoulou\.gradle\caches\transforms-3\53edefe15d403f8467620aa121e38059\transformed\material-1.7.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\evoreopoulou\.gradle\caches\transforms-3\38043517c514ada7a9c17da61d45b16b\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -45,22 +45,22 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\evoreopoulou\.gr
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\evoreopoulou\.gradle\caches\transforms-3\eb096476208bed94cd51cc904aa804e3\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\evoreopoulou\.gradle\caches\transforms-3\87b6f924c6c766718f595823a69da52a\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\evoreopoulou\.gradle\caches\transforms-3\fb44608a9e1d20332c6690b5dda0b67e\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:1-58:12
 	package
 		INJECTED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:1-58:12
 		INJECTED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:1-58:12
 		INJECTED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:1-58:12
 		INJECTED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:2:11-69
@@ -73,7 +73,7 @@ ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\m
 	android:name
 		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:7:21-69
 application
-ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:11:5-50:19
+ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:11:5-56:19
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\evoreopoulou\.gradle\caches\transforms-3\53edefe15d403f8467620aa121e38059\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\evoreopoulou\.gradle\caches\transforms-3\53edefe15d403f8467620aa121e38059\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\evoreopoulou\.gradle\caches\transforms-3\38043517c514ada7a9c17da61d45b16b\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -108,46 +108,54 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\evoreopoulou\.grad
 		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:19:9-53
 	android:dataExtractionRules
 		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:13:9-65
-activity#com.elenivoreos.notimetoworkout.FinishActivity
+activity#com.elenivoreos.notimetoworkout.BMIActivity
 ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:22:9-26:15
 	android:screenOrientation
 		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:25:13-49
 	android:exported
 		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:23:13-43
+		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:23:13-40
+activity#com.elenivoreos.notimetoworkout.FinishActivity
+ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:28:9-32:15
+	android:screenOrientation
+		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:31:13-49
+	android:exported
+		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:29:13-43
 activity#com.elenivoreos.notimetoworkout.ExerciseActivity
-ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:27:9-34:20
+ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:33:9-40:20
 	android:screenOrientation
-		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:30:13-49
+		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:36:13-49
 	android:exported
-		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:29:13-36
+		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:35:13-36
 	android:name
-		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:28:13-45
+		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:34:13-45
 meta-data#android.app.lib_name
-ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:31:13-33:36
+ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:37:13-39:36
 	android:value
-		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:33:17-33
+		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:39:17-33
 	android:name
-		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:32:17-52
+		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:38:17-52
 activity#com.elenivoreos.notimetoworkout.MainActivity
-ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:35:9-48:20
+ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:41:9-54:20
 	android:screenOrientation
-		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:38:13-49
+		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:44:13-49
 	android:exported
-		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:37:13-36
+		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:43:13-36
 	android:name
-		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:36:13-41
+		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:42:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:39:13-43:29
+ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:45:13-49:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:40:17-69
+ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:46:17-69
 	android:name
-		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:40:25-66
+		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:46:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:42:17-77
+ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:48:17-77
 	android:name
-		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:42:27-74
+		ADDED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:48:27-74
 uses-sdk
 INJECTED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml
