@@ -3,7 +3,6 @@ package com.elenivoreos.notimetoworkout
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import com.elenivoreos.notimetoworkout.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -16,10 +15,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding?.root)
 
         binding?.frameLayoutStart?.setOnClickListener {
-            val intent = Intent(this,ExerciseActivity::class.java)
+            val intent = Intent(this, ExerciseActivity::class.java)
             startActivity(intent)
-
-
         }
     }
 

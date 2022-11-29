@@ -32,7 +32,10 @@ drawable ic_triceps_dip_on_chair
 drawable ic_wall_sit
 drawable item_circular_color_accent_background
 drawable item_circular_color_accent_border
+drawable item_circular_color_gray_background
+drawable item_circular_thin_color_accent_border
 drawable item_color_accent_border_ripple_background
+drawable logo
 drawable workoutmainimage
 id frameLayout_Start
 id frameLayout_progress_bar
@@ -43,6 +46,7 @@ id mask
 id myImageview
 id progressBar
 id progressBarExercise
+id rvExerciseStatus
 id textViewExerciseName
 id textViewNextExercise
 id textViewNextExerciseLabel
@@ -50,8 +54,10 @@ id textViewTimer
 id textViewTimerExercise
 id textViewTitle
 id toolbarExercise
+id tvItem
 layout activity_exercise
 layout activity_main
+layout item_exercise_status
 mipmap ic_launcher
 mipmap ic_launcher_round
 raw press_start

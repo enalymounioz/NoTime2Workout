@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.elenivoreos.notimetoworkout.R;
@@ -43,6 +44,9 @@ public final class ActivityExerciseBinding implements ViewBinding {
   public final ProgressBar progressBarExercise;
 
   @NonNull
+  public final RecyclerView rvExerciseStatus;
+
+  @NonNull
   public final TextView textViewExerciseName;
 
   @NonNull
@@ -67,10 +71,11 @@ public final class ActivityExerciseBinding implements ViewBinding {
       @NonNull FrameLayout frameLayoutProgressBar,
       @NonNull FrameLayout frameLayoutProgressBarExercise, @NonNull ImageView imageViewImage,
       @NonNull LinearLayout linearLayoutNextExercise, @NonNull ProgressBar progressBar,
-      @NonNull ProgressBar progressBarExercise, @NonNull TextView textViewExerciseName,
-      @NonNull TextView textViewNextExercise, @NonNull TextView textViewNextExerciseLabel,
-      @NonNull TextView textViewTimer, @NonNull TextView textViewTimerExercise,
-      @NonNull TextView textViewTitle, @NonNull Toolbar toolbarExercise) {
+      @NonNull ProgressBar progressBarExercise, @NonNull RecyclerView rvExerciseStatus,
+      @NonNull TextView textViewExerciseName, @NonNull TextView textViewNextExercise,
+      @NonNull TextView textViewNextExerciseLabel, @NonNull TextView textViewTimer,
+      @NonNull TextView textViewTimerExercise, @NonNull TextView textViewTitle,
+      @NonNull Toolbar toolbarExercise) {
     this.rootView = rootView;
     this.frameLayoutProgressBar = frameLayoutProgressBar;
     this.frameLayoutProgressBarExercise = frameLayoutProgressBarExercise;
@@ -78,6 +83,7 @@ public final class ActivityExerciseBinding implements ViewBinding {
     this.linearLayoutNextExercise = linearLayoutNextExercise;
     this.progressBar = progressBar;
     this.progressBarExercise = progressBarExercise;
+    this.rvExerciseStatus = rvExerciseStatus;
     this.textViewExerciseName = textViewExerciseName;
     this.textViewNextExercise = textViewNextExercise;
     this.textViewNextExerciseLabel = textViewNextExerciseLabel;
@@ -150,6 +156,12 @@ public final class ActivityExerciseBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.rvExerciseStatus;
+      RecyclerView rvExerciseStatus = ViewBindings.findChildViewById(rootView, id);
+      if (rvExerciseStatus == null) {
+        break missingId;
+      }
+
       id = R.id.textViewExerciseName;
       TextView textViewExerciseName = ViewBindings.findChildViewById(rootView, id);
       if (textViewExerciseName == null) {
@@ -194,7 +206,7 @@ public final class ActivityExerciseBinding implements ViewBinding {
 
       return new ActivityExerciseBinding((ConstraintLayout) rootView, frameLayoutProgressBar,
           frameLayoutProgressBarExercise, imageViewImage, linearLayoutNextExercise, progressBar,
-          progressBarExercise, textViewExerciseName, textViewNextExercise,
+          progressBarExercise, rvExerciseStatus, textViewExerciseName, textViewNextExercise,
           textViewNextExerciseLabel, textViewTimer, textViewTimerExercise, textViewTitle,
           toolbarExercise);
     }

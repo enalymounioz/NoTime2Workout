@@ -32,14 +32,14 @@ class ExerciseModel (
     fun getIsComplete(): Boolean{
         return isComplete
     }
-    fun setIsComplete() {
+    fun setIsComplete(isComplete: Boolean) {
         this.isComplete = isComplete
     }
 
     fun getIsSelected(): Boolean{
         return isSelected
     }
-    fun setIsSelected() {
+    fun setIsSelected(isSelected: Boolean) {
         this.isSelected = isSelected
     }
 

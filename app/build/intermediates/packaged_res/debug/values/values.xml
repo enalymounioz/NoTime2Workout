@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
-    <color name="colorAccent">#008F24</color>
-    <color name="colorPrimary">#B2212121</color>
-    <color name="colorPrimaryDark">#B2212121</color>
-    <color name="lightGrey">#C4C4C4</color>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF000000</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="toolbar_color_control_normal">#000000</color>
+    <color name="colorAccent">#AAE05E</color>
+    <color name="colorPrimary">@color/teal_200</color>
+    <color name="colorPrimaryDark">@color/purple_700</color>
+    <color name="lightGrey">@color/purple_200</color>
+    <color name="purple_200">#f4f1de</color>
+    <color name="purple_500">#e07a5f</color>
+    <color name="purple_700">#3d405b</color>
+    <color name="teal_200">#81b29a</color>
+    <color name="teal_700">#f2cc8f</color>
+    <color name="toolbar_color_control_normal">@color/black</color>
     <color name="white">#FFFFFFFF</color>
     <dimen name="default_button_text_size">22sp</dimen>
     <dimen name="main_screen_main_layout_padding">5dp</dimen>

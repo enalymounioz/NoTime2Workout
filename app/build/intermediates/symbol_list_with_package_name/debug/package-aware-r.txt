@@ -2591,7 +2591,10 @@ drawable ic_triceps_dip_on_chair
 drawable ic_wall_sit
 drawable item_circular_color_accent_background
 drawable item_circular_color_accent_border
+drawable item_circular_color_gray_background
+drawable item_circular_thin_color_accent_border
 drawable item_color_accent_border_ripple_background
+drawable logo
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -3019,6 +3022,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rvExerciseStatus
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3133,6 +3137,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvItem
 id unchecked
 id uniform
 id unlabeled
@@ -3296,6 +3301,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout item_exercise_status
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

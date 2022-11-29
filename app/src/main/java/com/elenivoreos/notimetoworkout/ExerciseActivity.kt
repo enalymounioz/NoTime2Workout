@@ -9,23 +9,25 @@ import android.speech.tts.TextToSpeech
 import android.util.Log
 import android.view.View
 import android.widget.Toast
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.elenivoreos.notimetoworkout.databinding.ActivityExerciseBinding
-import java.net.URISyntaxException
 import java.util.*
 
 class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
-    private var restTimer: CountDownTimer? =null
-    private var restProgress =0
+    private var restTimer: CountDownTimer? = null
+    private var restProgress = 0
 
-    private var exerciseTimer: CountDownTimer? =null
-    private var exerciseProgress =0
+    private var exerciseTimer: CountDownTimer? = null
+    private var exerciseProgress = 0
 
     private var exerciseList: ArrayList<ExerciseModel>? = null
     private var currentExercisePosition = -1
 
-    private var tts: TextToSpeech?=null
-    private var player : MediaPlayer? = null
+    private var tts: TextToSpeech? = null
+    private var player: MediaPlayer? = null
+
+    private var exerciseAdapter: ExerciseStatusAdapter? = null
 
     private var binding: ActivityExerciseBinding? = null
 
@@ -46,7 +48,16 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             onBackPressed()
         }
         setupRestView()
+        setupExerciseStatusRecyclerView()
 
+    }
+
+    private fun setupExerciseStatusRecyclerView() {
+        binding?.rvExerciseStatus?.layoutManager =
+            LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
+
+        exerciseAdapter = ExerciseStatusAdapter(exerciseList!!)
+        binding?.rvExerciseStatus?.adapter = exerciseAdapter
     }
 
     /**
@@ -60,12 +71,13 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
         try {
             val soundURI = Uri.parse(
-                "android.resource://com.elenivoreos.notimetoworkout/" +R.raw.press_start)
+                "android.resource://com.elenivoreos.notimetoworkout/" + R.raw.press_start
+            )
             player = MediaPlayer.create(applicationContext, soundURI)
             player?.isLooping = false
             player?.start()
 
-        }catch (e: Exception) {
+        } catch (e: Exception) {
             e.printStackTrace()
         }
 
@@ -82,7 +94,7 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             restTimer?.cancel()
             restProgress = 0
         }
-        binding?.textViewNextExercise?.text = exerciseList!![currentExercisePosition+1].getName()
+        binding?.textViewNextExercise?.text = exerciseList!![currentExercisePosition + 1].getName()
 
         setRestProgressBar()
     }
@@ -91,8 +103,7 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
      * Function is used to set the progress of timer using the progress
      * */
     private fun setRestProgressBar() {
-        binding?.progressBar?.progress =
-            restProgress //Sets the current progress to the specified value
+        binding?.progressBar?.progress = restProgress
 
         /**
          * @param millisInFuture The number of millis in the future from the call
@@ -111,12 +122,15 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             }
 
             override fun onFinish() {
-
                 currentExercisePosition++
+                exerciseList!![currentExercisePosition].setIsSelected(true)
+                exerciseAdapter!!.notifyDataSetChanged()
+
                 setupExerciseView()
             }
         }.start()
     }
+
     /**
      * Function is used to set the progress of the timer using the progress for Exercise View.
      **/
@@ -163,6 +177,10 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             }
 
             override fun onFinish() {
+                exerciseList!![currentExercisePosition].setIsSelected(false)
+                exerciseList!![currentExercisePosition].setIsComplete(true)
+                exerciseAdapter!!.notifyDataSetChanged()
+
                 if (currentExercisePosition < exerciseList?.size!! - 1) {
                     setupRestView()
                 } else {
@@ -185,16 +203,16 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             restTimer?.cancel()
             restProgress = 0
         }
-        if(exerciseTimer!= null){
+        if (exerciseTimer != null) {
             exerciseTimer?.cancel()
-            exerciseProgress= 0
+            exerciseProgress = 0
         }
         if (player != null)
             player!!.stop()
 
 
 
-        if (tts!= null){
+        if (tts != null) {
             tts!!.stop()
             tts!!.shutdown()
         }
@@ -212,7 +230,8 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             Log.e("TTS", "Initialization failed!")
         }
     }
-    private fun speakOut(text: String){
+
+    private fun speakOut(text: String) {
         tts!!.speak(text, TextToSpeech.QUEUE_FLUSH, null, "")
     }
 }
