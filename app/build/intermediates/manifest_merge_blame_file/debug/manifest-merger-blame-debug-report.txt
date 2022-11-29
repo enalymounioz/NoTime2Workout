@@ -21,7 +21,7 @@
 15    </queries>
 16
 17    <application
-17-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:11:5-41:19
+17-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:11:5-50:19
 18        android:allowBackup="true"
 18-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:12:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -44,64 +44,76 @@
 29        android:theme="@style/Theme.NoTimeToWorkout" >
 29-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:19:9-53
 30        <activity
-30-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:21:9-27:20
-31            android:name="com.elenivoreos.notimetoworkout.ExerciseActivity"
-31-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:22:13-45
-32            android:exported="false" >
-32-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:23:13-37
-33            <meta-data
-33-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:24:13-26:36
-34                android:name="android.app.lib_name"
-34-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:25:17-52
-35                android:value="" />
-35-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:26:17-33
-36        </activity>
-37        <activity
-37-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:28:9-40:20
-38            android:name="com.elenivoreos.notimetoworkout.MainActivity"
-38-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:29:13-41
-39            android:exported="true" >
-39-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:30:13-36
-40            <intent-filter>
-40-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:31:13-35:29
-41                <action android:name="android.intent.action.MAIN" />
-41-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:32:17-69
-41-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:32:25-66
-42
-43                <category android:name="android.intent.category.LAUNCHER" />
-43-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:34:17-77
-43-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:34:27-74
-44            </intent-filter>
-45
-46            <meta-data
-46-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:24:13-26:36
-47                android:name="android.app.lib_name"
-47-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:25:17-52
-48                android:value="" />
-48-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:26:17-33
-49        </activity>
-50
-51        <provider
-51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\evoreopoulou\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-52            android:name="androidx.startup.InitializationProvider"
-52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\evoreopoulou\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-53            android:authorities="com.elenivoreos.notimetoworkout.androidx-startup"
-53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\evoreopoulou\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-54            android:exported="false" >
-54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\evoreopoulou\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-55            <meta-data
-55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\evoreopoulou\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\evoreopoulou\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-57                android:value="androidx.startup" />
-57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\evoreopoulou\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-58            <meta-data
-58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\evoreopoulou\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\evoreopoulou\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-60                android:value="androidx.startup" />
-60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\evoreopoulou\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-61        </provider>
-62    </application>
-63
-64</manifest>
+30-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:22:9-26:15
+31            android:name="com.elenivoreos.notimetoworkout.FinishActivity"
+31-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:23:13-43
+32            android:exported="true"
+32-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:24:13-36
+33            android:screenOrientation="portrait" />
+33-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:25:13-49
+34        <activity
+34-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:27:9-34:20
+35            android:name="com.elenivoreos.notimetoworkout.ExerciseActivity"
+35-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:28:13-45
+36            android:exported="true"
+36-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:29:13-36
+37            android:screenOrientation="portrait" >
+37-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:30:13-49
+38            <meta-data
+38-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:31:13-33:36
+39                android:name="android.app.lib_name"
+39-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:32:17-52
+40                android:value="" />
+40-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:33:17-33
+41        </activity>
+42        <activity
+42-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:35:9-48:20
+43            android:name="com.elenivoreos.notimetoworkout.MainActivity"
+43-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:36:13-41
+44            android:exported="true"
+44-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:37:13-36
+45            android:screenOrientation="portrait" >
+45-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:38:13-49
+46            <intent-filter>
+46-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:39:13-43:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:40:17-69
+47-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:40:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:42:17-77
+49-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:42:27-74
+50            </intent-filter>
+51
+52            <meta-data
+52-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:31:13-33:36
+53                android:name="android.app.lib_name"
+53-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:32:17-52
+54                android:value="" />
+54-->C:\Users\evoreopoulou\AndroidStudioProjects\NoTimeToWorkout\app\src\main\AndroidManifest.xml:33:17-33
+55        </activity>
+56
+57        <provider
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\evoreopoulou\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\evoreopoulou\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+59            android:authorities="com.elenivoreos.notimetoworkout.androidx-startup"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\evoreopoulou\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+60            android:exported="false" >
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\evoreopoulou\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+61            <meta-data
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\evoreopoulou\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\evoreopoulou\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+63                android:value="androidx.startup" />
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\evoreopoulou\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+64            <meta-data
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\evoreopoulou\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\evoreopoulou\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+66                android:value="androidx.startup" />
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\evoreopoulou\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+67        </provider>
+68    </application>
+69
+70</manifest>

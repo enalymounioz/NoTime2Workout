@@ -17,6 +17,7 @@ dimen main_screen_main_layout_padding
 drawable circular_progress_bar
 drawable circular_progress_bar_gray
 drawable ic_abdominal_crunch
+drawable ic_action_done
 drawable ic_high_knees_running_in_place
 drawable ic_jumping_jacks
 drawable ic_launcher_background
@@ -37,6 +38,8 @@ drawable item_circular_thin_color_accent_border
 drawable item_color_accent_border_ripple_background
 drawable logo
 drawable workoutmainimage
+font poppins
+id btnFinish
 id frameLayout_Start
 id frameLayout_progress_bar
 id frameLayout_progress_bar_exercise
@@ -54,8 +57,10 @@ id textViewTimer
 id textViewTimerExercise
 id textViewTitle
 id toolbarExercise
+id toolbar_finish_activity
 id tvItem
 layout activity_exercise
+layout activity_finish
 layout activity_main
 layout item_exercise_status
 mipmap ic_launcher

@@ -29,6 +29,9 @@
         
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         
+        
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
     </style>
     <style name="ToolbarTheme" parent="@style/ThemeOverlay.MaterialComponents.ActionBar">
         <item name="colorControlNormal">@color/toolbar_color_control_normal</item>

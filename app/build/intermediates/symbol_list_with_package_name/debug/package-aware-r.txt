@@ -2567,6 +2567,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_abdominal_crunch
+drawable ic_action_done
 drawable ic_clock_black_24dp
 drawable ic_high_knees_running_in_place
 drawable ic_jumping_jacks
@@ -2667,6 +2668,7 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable workoutmainimage
+font poppins
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2765,6 +2767,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnFinish
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3126,6 +3129,7 @@ id titleDividerNoCustom
 id title_template
 id toggle
 id toolbarExercise
+id toolbar_finish_activity
 id top
 id topPanel
 id touch_outside
@@ -3284,6 +3288,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_exercise
+layout activity_finish
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item
