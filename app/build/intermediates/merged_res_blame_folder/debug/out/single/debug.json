@@ -12,24 +12,24 @@
         "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable\\drawable_units_tab_text_color_selector.xml"
     },
     {
-        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable_ic_action_done.xml.flat",
-        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable\\ic_action_done.xml"
-    },
-    {
         "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\layout_activity_bmi.xml.flat",
         "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\layout\\activity_bmi.xml"
     },
     {
-        "merged": "com.elenivoreos.notimetoworkout.app-merged_res-29:/layout_activity_bmi.xml.flat",
-        "source": "com.elenivoreos.notimetoworkout.app-main-31:/layout/activity_bmi.xml"
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable_ic_action_done.xml.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable\\ic_action_done.xml"
     },
     {
-        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable-v24_ic_step_up_onto_chair.png.flat",
-        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable-v24\\ic_step_up_onto_chair.png"
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\layout_activity_history.xml.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\layout\\activity_history.xml"
     },
     {
         "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable-v24_ic_step_up_onto_chair.png.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable-v24\\ic_step_up_onto_chair.png"
     },
     {
         "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -72,12 +72,12 @@
         "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable\\drawable_units_tab_selector.xml"
     },
     {
-        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\layout_dialog_custom_back_confirmation.xml.flat",
-        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\layout\\dialog_custom_back_confirmation.xml"
-    },
-    {
         "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\layout_dialog_custom_back_confirmation.xml.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\layout\\dialog_custom_back_confirmation.xml"
     },
     {
         "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -106,6 +106,10 @@
     {
         "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable-v24_ic_abdominal_crunch.png.flat",
         "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable-v24\\ic_abdominal_crunch.png"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable_ic_calendar24.xml.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable\\ic_calendar24.xml"
     },
     {
         "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable_drawable_radio_group_tab_background.xml.flat",
@@ -146,6 +150,10 @@
     {
         "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable-v24_ic_jumping_jacks.png.flat",
         "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable-v24\\ic_jumping_jacks.png"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\drawable_ic_baseline_calendar_month_24.xml.flat",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\drawable\\ic_baseline_calendar_month_24.xml"
     },
     {
         "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",

@@ -6,4 +6,5 @@
     <string name="this_will_stop_your_workout_you_ve_come_this_fare_are_you_sure_you_want_to_quit">This will stop your workout. You\'ve come this fare, are you sure you want to quit?</string>
     <string name="calculate_bmi">Calculate BMI</string>
     <string name="no_time_nto_workout">No Time \nTo WorkOut</string>
+    <string name="history">HISTORY</string>
 </resources>

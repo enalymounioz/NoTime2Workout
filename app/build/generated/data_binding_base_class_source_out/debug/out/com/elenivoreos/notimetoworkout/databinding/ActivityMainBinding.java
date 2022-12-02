@@ -25,6 +25,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final FrameLayout frameLayoutBMI;
 
   @NonNull
+  public final FrameLayout frameLayoutHistory;
+
+  @NonNull
   public final FrameLayout frameLayoutStart;
 
   @NonNull
@@ -33,14 +36,20 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final TextView tvCalculator;
 
+  @NonNull
+  public final TextView tvHistory;
+
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FrameLayout frameLayoutBMI, @NonNull FrameLayout frameLayoutStart,
-      @NonNull ImageView myImageview, @NonNull TextView tvCalculator) {
+      @NonNull FrameLayout frameLayoutBMI, @NonNull FrameLayout frameLayoutHistory,
+      @NonNull FrameLayout frameLayoutStart, @NonNull ImageView myImageview,
+      @NonNull TextView tvCalculator, @NonNull TextView tvHistory) {
     this.rootView = rootView;
     this.frameLayoutBMI = frameLayoutBMI;
+    this.frameLayoutHistory = frameLayoutHistory;
     this.frameLayoutStart = frameLayoutStart;
     this.myImageview = myImageview;
     this.tvCalculator = tvCalculator;
+    this.tvHistory = tvHistory;
   }
 
   @Override
@@ -76,6 +85,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.frameLayoutHistory;
+      FrameLayout frameLayoutHistory = ViewBindings.findChildViewById(rootView, id);
+      if (frameLayoutHistory == null) {
+        break missingId;
+      }
+
       id = R.id.frameLayout_Start;
       FrameLayout frameLayoutStart = ViewBindings.findChildViewById(rootView, id);
       if (frameLayoutStart == null) {
@@ -94,8 +109,14 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, frameLayoutBMI, frameLayoutStart,
-          myImageview, tvCalculator);
+      id = R.id.tvHistory;
+      TextView tvHistory = ViewBindings.findChildViewById(rootView, id);
+      if (tvHistory == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, frameLayoutBMI,
+          frameLayoutHistory, frameLayoutStart, myImageview, tvCalculator, tvHistory);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

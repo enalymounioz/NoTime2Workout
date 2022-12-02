@@ -4,10 +4,6 @@
         "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\layout\\activity_exercise.xml"
     },
     {
-        "merged": "com.elenivoreos.notimetoworkout.app-mergeDebugResources-28:/layout/activity_bmi.xml",
-        "source": "com.elenivoreos.notimetoworkout.app-main-31:/layout/activity_bmi.xml"
-    },
-    {
         "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-mergeDebugResources-28:\\layout\\item_exercise_status.xml",
         "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\layout\\item_exercise_status.xml"
     },
@@ -22,6 +18,14 @@
     {
         "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-mergeDebugResources-28:\\layout\\dialog_custom_back_confirmation.xml",
         "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\layout\\dialog_custom_back_confirmation.xml"
+    },
+    {
+        "merged": "com.elenivoreos.notimetoworkout.app-mergeDebugResources-28:/layout/activity_main.xml",
+        "source": "com.elenivoreos.notimetoworkout.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-mergeDebugResources-28:\\layout\\activity_history.xml",
+        "source": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-main-31:\\layout\\activity_history.xml"
     },
     {
         "merged": "C:\\Users\\evoreopoulou\\.gradle\\daemon\\7.4\\com.elenivoreos.notimetoworkout.app-mergeDebugResources-28:\\layout\\activity_finish.xml",
