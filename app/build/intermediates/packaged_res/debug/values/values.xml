@@ -4,6 +4,7 @@
     <color name="colorAccent">#AAE05E</color>
     <color name="colorPrimary">@color/teal_200</color>
     <color name="colorPrimaryDark">@color/purple_700</color>
+    <color name="gray">#808080</color>
     <color name="lightGrey">@color/purple_200</color>
     <color name="purple_200">#f4f1de</color>
     <color name="purple_500">#e07a5f</color>
